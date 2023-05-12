@@ -1,0 +1,74 @@
+* {box-sizing: border-box;
+width: 80%;
+margin:auto;}
+
+.button-back {
+    margin: auto;
+    width: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50; /* цвет фона кнопки */
+    color: #4E4E50;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* плавное изменение цвета фона при наведении курсора */
+}
+
+.button-back:hover {
+    background-color: #3e8e41; /* цвет фона кнопки при наведении курсора */
+}
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+body{
+    background-color: #1A1A1D;
+}
+
+h1 , p{
+    text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #4E4E50;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #4E4E50;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #4E4E50;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: #4E4E50;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}

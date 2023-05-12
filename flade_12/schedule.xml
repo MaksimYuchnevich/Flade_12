@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+  <day>
+    <name>Понедельник</name>
+    <time>9:00 - 12:00</time>
+    <task>Совещание</task>
+  </day>
+  <day>
+    <name>Вторник</name>
+    <time>10:00 - 13:00</time>
+    <task>Разработка</task>
+  </day>
+  <day>
+    <name>Среда</name>
+    <time>8:30 - 11:30</time>
+    <task>Тестирование</task>
+  </day>
+  <day>
+    <name>Четверг</name>
+    <time>9:30 - 12:30</time>
+    <task>Поддержка</task>
+  </day>
+  <day>
+    <name>Пятница</name>
+    <time>10:30 - 13:30</time>
+    <task>Обучение</task>
+  </day>
+</schedule>
